@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    color: black;
+    background-image:url(../images/bc.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 11em;
+}
+
+.headerText{
+    display: inline-block;
+    padding-top: 3em;
+    padding-left: 3em;
+}
+.headerText h1,h2{
+    margin: 0px;
+    padding: 6px;
+    padding-right: 20px;
+    background-color: pink;
+}
+
+.productos{
+    width: 80%;
+    margin: auto;
+}
+
+.productos td{
+    width: 50%;
+    padding: 2rem;
+}
+
+.foto{
+    width: 240px;
+    border: solid 3px darkgray;
+}
+
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: pink;
+    text-align: center;
+    font-weight: 900;
+}
